@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
 
-        <title>Laravel</title>
+        <title>MyBahan</title>
         @vite('resources/css/app.css')
     </head>
     <body>

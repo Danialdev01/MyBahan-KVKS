@@ -1,6 +1,6 @@
 <x-layouts.main>
     <section style='min-height:80dvh'>
-        <div class="p-4 sm:ml-64">
+        <div class="p-4">
             <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg">
                 <div class="flex items-center justify-between mb-4">
                     <h2 class="text-2xl font-bold text-gray-900">Tambah Bahan Baru</h2>
@@ -12,7 +12,8 @@
                 <div class="bg-white rounded-lg shadow p-6">
                     <form method="POST" action="{{ route('bahan.store') }}">
                         @csrf
-        
+                        
+                        
                         <div class="mb-6">
                             <label for="nama" class="block mb-2 text-sm font-medium text-gray-900">Nama Bahan</label>
                             <input type="text" id="nama" name="nama" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" required>
